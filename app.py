@@ -139,7 +139,6 @@ def generate_frames(cap, fps):
             file_path='data.json'
             with open(file_path, "w") as f:
                 json.dump(data, f)
-            return render_template('result.html')
        
         
         #time.sleep(frame_time / 1000.0)
